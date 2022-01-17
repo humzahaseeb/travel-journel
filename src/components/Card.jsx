@@ -11,15 +11,17 @@ const Card = (props) => {
             </div>
 
             <div className='information'>
-                <div style={{display: 'flex', justifyContent:'space-evenly', alignItems:'center'}}>
+                <div className='location'>
                     <p>{props.location}</p>
                     <a href={`${props.URL}`} >View on Google Maps</a>
                 </div>
-                <div style={{display: 'flex', flexDirection:'column', alignItems:'center'}}>
+
+                <div className='description'>
                     <h1>{props.title}</h1>
                     <h3>{props.startDate} - {props.endDate}</h3>
-                    <p style={{marginLeft: '3rem'}}>{props.description}</p>
+                    <p className='para'>{props.description}</p>
                 </div>
+
             </div>
             </div>
         </div>
