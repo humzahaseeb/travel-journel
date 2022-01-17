@@ -19,3 +19,24 @@ body {
   height: 2.5rem;
   align-items: center;
 }
+.cards-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card{
+  display: flex;
+  margin: 5rem;
+}
+.card-image{
+  height: 20rem;
+  width: 20rem;
+  margin-right: 1.5rem;
+}
+.card > p{
+  font-size: 10px;
+}
+.information{
+  max-width: 25rem;
+}
